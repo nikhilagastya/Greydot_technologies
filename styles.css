@@ -1,0 +1,50 @@
+.container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  body{
+    background-color: #E9F1FA;
+    background-color: #FFCE32
+  }
+  .container {
+    background-color:#1D63FF;
+    width: 200px;
+    min-height: 50%;
+    border: 1px solid #141414;
+    margin: 10px;
+    padding: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .item {
+    background-color:  #E9F1FA;
+    padding: 5px;
+    height:30px;
+    margin: 4px;
+    border-radius: 3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: move;
+    transition: background-color 0.3s;
+    color:rgb(13, 13, 13);
+  }
+  
+  .item.dragged {
+    background-color: #81ade3
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color:#1D63FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #044ae3;;
+  }
+  
