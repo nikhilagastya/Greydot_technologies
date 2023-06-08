@@ -15,6 +15,7 @@
     border: 1px solid #141414;
     margin: 10px;
     padding: 10px;
+    border-radius: 3px;
     transition: background-color 0.3s;
   }
   
@@ -39,6 +40,7 @@
     background-color:#1D63FF;
     color: white;
     border: none;
+    border-radius: 3px;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
