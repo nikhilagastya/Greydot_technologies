@@ -1,4 +1,4 @@
-# Greydot_technologies
+# Graydot_technologies
 # Drag and Drop Interface
 
 This project implements a simple web page with a drag and drop interface. Users can drag and drop items between two containers.
